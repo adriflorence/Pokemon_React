@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import PokemonContainer from './containers/PokemonContainer.js';
+import CharacterContainer from './containers/CharacterContainer.js';
 
 class App extends Component {
   render() {
     return (
-        <PokemonContainer />
+        <CharacterContainer />
     );
   }
 }

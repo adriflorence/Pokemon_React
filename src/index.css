@@ -4,3 +4,54 @@ body {
   font-family: sans-serif;
   background-color: #FFCC00;
 }
+
+.container {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.logo {
+  background-image: url('logo2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 520px;
+  margin: 0px auto;
+  vertical-align: baseline;
+}
+
+.logo h1 {
+  padding-top: 170px;
+  color: white;
+}
+
+.pokemon-display {
+  width: 28%;
+  margin: 10px auto;
+}
+
+.pokemon {
+  margin-top: 20px;
+  border: 2px solid #FFE059;
+}
+
+.pokemon h1 {
+  font-size: 20px;
+}
+
+#pokemon-selector {
+  height: 30px;
+  font-size: 14px;
+  border: 2px solid #2E52BE;
+}
+
+#footer {
+  background-color: #FFE059;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  color: #2E52BE;
+}
